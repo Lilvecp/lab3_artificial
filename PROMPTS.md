@@ -12,7 +12,7 @@ A real final test is a later period scored once with model and threshold frozen 
 ## Truthful use / no-use record
 
 Tool and use, or “No AI used for this lab”:
-Claude (Anthropic), used by Valentín Castro as a support tool. Valentín made the experimental decisions:
+Claude Code (Anthropic, Opus 5.5), used by Valentín Castro as a support tool. Valentín made the experimental decisions:
 he chose the additional candidate (`forest_sqrt`, `min_samples_leaf` 30 → 100) among the three allowed options,
 and set its expected effect (dev event recall rises slightly) before the first run. With Claude's help he recorded
 that spec, ran the notebook, and drafted sections 1, 2 and 4 and the README environment steps; he reviewed the
