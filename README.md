@@ -42,6 +42,10 @@ python3 -m venv .venv
 ```
 
 (or open the notebook with the "IIT414W Lab03 v3" kernel and use Restart + Run All).
+Final run for submission (Camilo Bufadel, macOS): Python 3.12.13 in a fresh `.venv` with the same pinned packages and the
+same commands as above (`python3.12 -m venv .venv`; nbconvert run with `--ExecutePreprocessor.kernel_name=iit414w-lab03-v3`).
+Compared with the 3.13 run, only `forest_all` AP changed in the 6th decimal (0.236137 → 0.236095 dev); all counts,
+thresholds, alerts and error types were identical. The submitted outputs and manifest come from this 3.12 run.
 The additional candidate is `forest_sqrt`, `min_samples_leaf` 30 → 100, configured in the notebook block under
 "3. Record your expectation before your additional run". A full run takes about one minute and writes
 `comparison_table.md` and the five files in `outputs/` (six systems / twelve rows, `experiment_complete: true`).
